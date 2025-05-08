@@ -197,7 +197,7 @@ addEventListener('click', function () {
         player.velocity.y = -10;
         keyPressed = true;
         scrollOffset = 3
-        player.gravity= 0.2
+        player.gravity= 0.1
 
     }
     else if(gameOver){
