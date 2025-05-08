@@ -194,10 +194,10 @@ animate();
 
 addEventListener('click', function () {
     if (!gameOver) {
-        player.velocity.y = -9;
+        player.velocity.y = -10;
         keyPressed = true;
         scrollOffset = 3
-        player.gravity= 0.5
+        player.gravity= 0.2
 
     }
     else if(gameOver){
