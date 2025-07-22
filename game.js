@@ -168,7 +168,7 @@ animate();
 
 addEventListener('keydown', function (e) {
     if (e.key == 'ArrowUp' && !gameOver) {
-        player.velocity.y = -9;
+        player.velocity.y = -8;
         keyPressed = true;
         scrollOffset = 3
         player.gravity= 0.3
@@ -192,28 +192,5 @@ addEventListener('keydown', function (e) {
 })
 animate();
 
-addEventListener('click', function () {
-    if (!gameOver) {
-        player.velocity.y = -10;
-        keyPressed = true;
-        scrollOffset = 3
-        player.gravity= 0.01
 
-    }
-    else if(gameOver){
-        player.velocity.y = 0;
-        keyPressed = false;
-        scrollOffset = 0
-        player.gravity= 0
-        context.fillStyle = 'red'
-        context.font = '60px Arial'
-        context.fillText("GAME OVER !!", 400,300)
-        window.location.reload()
-        wascroll = 0
-    }
-    else{
-
-    }
-
-})
 
