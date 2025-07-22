@@ -171,7 +171,7 @@ addEventListener('keydown', function (e) {
         player.velocity.y = -9;
         keyPressed = true;
         scrollOffset = 3
-        player.gravity= 0.5
+        player.gravity= 0.3
 
     }
     else if(gameOver){
