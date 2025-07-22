@@ -171,7 +171,8 @@ addEventListener('keydown', function (e) {
         player.velocity.y = -10;
         keyPressed = true;
         scrollOffset = 3
-        player.gravity= 0.4
+        player.gravity= 0.2
+        
         
 
     }
